@@ -12,6 +12,30 @@ html {
       box-sizing: border-box;
     }
 
+.above-chart {
+    width: 100%;
+    text-align: center; /* Optional: center the text/content in this div */
+    margin-bottom: 20px; /* Space between this div and the chart container */
+}
+
+.chart-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Optional: for max width */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for a subtle shadow */
+    background-color: white; /* Optional: for a white background */
+    border-radius: 10px; /* Optional: for rounded corners */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.chart-iframe {
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    border: none;
+    border-radius: 10px; /* Optional: for rounded corners on the iframe */
+}
+
+
 body {
     margin: 0;
 }
